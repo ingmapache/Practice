@@ -29,3 +29,11 @@ body {
     border-radius: 10px;
     width: 150px
 }
+
+.inputBox {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
