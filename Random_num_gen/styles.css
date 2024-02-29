@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    place-items: center;
+    overflow: hidden;
+    
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.randomNumber {
+    font-size: 6rem;
+}
+
+.randomNumButton {
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 150px
+}
