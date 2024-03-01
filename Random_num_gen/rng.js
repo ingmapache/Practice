@@ -12,7 +12,7 @@ randomButton.onclick = function() {
         alert("Maximum number must be positive and greater than minimum number");
         return;
     }
-    numberSpot.textContent = Math.floor(Math.random() * (max - min + 1) + min);
+    numberSpot.textContent = Math.floor(Math.random() * (max - min + 1)) + min;
     console.log(document.getElementById("minNumber").valueAsNumber);    
 }
 
